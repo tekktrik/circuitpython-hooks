@@ -1,0 +1,23 @@
+# SPDX-FileCopyrightText: 2024 Alec Delaney, for Adafruit Industries
+# SPDX-License-Identifier: MIT
+
+- id: lint
+  name: Lint files
+  entry: circuitpython-lint
+  language: python
+- id: format
+  name: Format files
+  entry: circuitpython-format
+  language: python
+- id: foss
+  name: Ensure REUSE compliance
+  entry: circuitpython-reuse
+  language: python
+- id: test
+  name: Test files
+  entry: circuitpython-test
+  language: python
+- id: all
+  name: Run all hooks
+  entry: circuitpython-hooks
+  language: python
